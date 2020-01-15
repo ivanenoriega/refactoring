@@ -1,0 +1,65 @@
+* {
+  font-size: 12px Arial, sans-serif;
+}
+
+.logo {
+  width: 100px;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.option {
+  font-size: 12px;
+}
+
+.movies__list {
+  list-style: none;
+  padding: 0;
+}
+
+.movie:nth-child(odd) {
+  background-color: #f6f6f5;
+}
+
+.movie:nth-child(even) {
+  background-color: #fbfbfb;
+}
+
+.movie {
+  padding: 20px;
+  display: flex;
+}
+
+.movie__image {
+  height: 98px;
+}
+
+.movie__title {
+  margin: 0 10px 0 0;
+  display: inline-block;
+}
+
+.movie__summary {
+  padding-left: 10px;
+}
+
+.movie__rate {
+  display: inline-block;
+}
+
+.movie__star {
+  height: 20px;
+  margin: 0 5px 0;
+  vertical-align: -4px;
+}
+
+.movie__description {
+  margin: 10px 0 0 0;
+}

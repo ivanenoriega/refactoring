@@ -5,11 +5,72 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+  <title>IMDB</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-
+  <div>
+    <img class="logo" src="./assets/images/logo.svg" alt="">
+    <h1 class="title">IMDB (mini)</h1>
+    <div class="filters">
+      <div class="filter">
+        <label for="tag">Tag</label>
+        <select id="tag">
+          <option class="option" value="/">Select a tag</option>
+          <option class="option" value="Crime">Crime</option>
+          <option class="option" value="Music">Music</option>
+          <option class="option" value="Drama">Drama</option>
+          <option class="option" value="Animation">Animation</option>
+          <option class="option" value="Romance">Romance</option>
+          <option class="option" value="Adventure">Adventure</option>
+          <option class="option" value="Comedy">Comedy</option>
+          <option class="option" value="Fantasy">Fantasy</option>
+          <option class="option" value="Science">Science</option>
+          <option class="option" value="Mystery">Mystery</option>
+          <option class="option" value="Action">Action</option>
+          <option class="option" value="Thriller">Thriller</option>
+          <option class="option" value="War">War</option>
+          <option class="option" value="Western">Western</option>
+        </select>
+      </div>
+      <div class="filter">
+        <label for="rate">Rate</label>
+        <select id="rate">
+          <option class="option" value="/">Select a rate</option>
+          <option class="option" value="top">> 8</option>
+          <option class="option" value="medium">> 6</option>
+          <option class="option" value="low">> 4</option>
+        </select>
+      </div>
+    </div>
+    <div class="movies">
+      <ul class="movies__list">
+        <!-- <li class="movie">
+          <img class="movie__image" src="https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+            alt="">
+          <div class="movie__summary">
+            <div>
+              <h2 class="movie__title">El caballero oscuro</h2>
+              <span class="year">(2008)</span>
+            </div>
+            <div>
+              <img class="movie__star" src="https://img.icons8.com/plasticine/2x/star--v1.png" alt="">
+              <span class="movie__rate">9.0</span>
+              <span class="genre">Action</span>
+            </div>
+            <p class="description">When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of
+              the greatest psychological and physical tests of his ability to fight injustice.</p>
+            <p class="director">Director: Christopher Nolan</p>
+          </div>
+        </li> -->
+      </ul>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./movies.js"></script>
+  <script type="text/javascript" src="./index.js"></script>
 </body>
 
 </html>
